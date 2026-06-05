@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ARALU - Timeless Saree Elegance",
   description: "Experience the finest collection of handcrafted sarees at ARALU. From pure silk to designer wear, discover elegance in every drape.",
+  icons: {
+    icon: '/brand/logo.jpeg',
+    shortcut: '/brand/logo.jpeg',
+    apple: '/brand/logo.jpeg',
+  },
 };
 
 export default function RootLayout({
